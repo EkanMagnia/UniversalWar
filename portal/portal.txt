@@ -1,0 +1,20 @@
+The Universal War Portal...
+
+READY! Announcements - news viewing, news archive, admin system including posting, editing and deleting news
+READY! Screenshots - screenshots from game, both designs
+READY! Features - a nice article describing the game
+READY! Calendar - uwar calendar
+READY! Schedule - dates for start,end, havoc
+READY! Articles - articles that we get posted in magazines, gaming sites 
+READY! Manual - game manual
+READY! Forums - uwar forums	
+READY! Statistics - general game statistics from the current round, rankings
+READY! Poll - poll placed good on the portal
+READY! Poll history - history of all former polls, including results
+READY! Credits - All involved peoples behind uwar
+READY! User integration with forum
+	Administration system
+	Battle Calculator - battle calc
+	History - past rounds ranking
+	Columns - wrote by players, accepted by admins in admin system, different sections: Alliances, Strategy, Stories, Divertisement
+	F.A.Q - same content as in forum, adding/editing/removing	

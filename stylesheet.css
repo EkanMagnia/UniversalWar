@@ -1,0 +1,78 @@
+body {
+	margin-top: 50px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+a {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border: 1px solid #1E5A92;
+	background-color: #FFFFFF;
+	overflow: auto;
+	height: 70px;
+	width: 110px;
+}
+
+INPUT {
+	FONT-SIZE: 8pt; COLOR: #FFFFFF; FONT-FAMILY: verdana; BACKGROUND-COLOR: #000000;
+}
+TEXTAREA {
+	FONT-SIZE: 8pt; COLOR: #FFFFFF; FONT-FAMILY: verdana; BACKGROUND-COLOR: #00354F;
+}
+SELECT {
+	FONT-SIZE: 8pt; COLOR: #FFFFFF; FONT-FAMILY: verdana; BACKGROUND-COLOR: #000000; WIDTH: 119px; HEIGHT: 20 px;
+}
+
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+.preheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000
+}
+
+.error {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #C60000
+}
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000
+}
+
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 14px; 
+	font-size: 11px;
+	color: #000000
+}
+
+

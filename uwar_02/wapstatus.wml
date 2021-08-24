@@ -1,0 +1,60 @@
+<?php
+//send wml headers
+  header("Content-type: text/vnd.wap.wml");				// set the correct MIME type
+  header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");		        // expires in the past
+  header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");     // Last modified, right now
+  header("Cache-Control: no-cache, must-revalidate");	        // Prevent caching, HTTP/1.1
+  header("Pragma: no-cache");		                        // Prevent caching, HTTP/1.0
+echo "<?xml version=\"1.0\"?>";
+echo "<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML 1.1//EN\"" 
+   . " \"http://www.wapforum.org/DTD/wml_1.1.xml\">";
+?>
+
+<wml>
+
+<card id="speedround" title="Long Round">
+<do type="prev">
+<prev/>
+</do>
+
+<p><a href="#speedstatus">Status</a></p>
+<p><a href="http://universalwar.pixelrage.ro/uwar/uwar_02/wapticker.wml">Run Ticker</a></p>
+
+</card>
+
+<card id="speedstatus" title="Long Round">
+<do type="prev">
+<prev/>
+</do>
+
+<p>
+<?
+
+include("functions.php");
+
+$UserCountSQL = mysql_query("SELECT id FROM uwar_users",$db);
+$UserCount = mysql_num_rows($UserCountSQL);
+$OnlineCountSQL = mysql_query("SELECT id FROM uwar_users WHERE timer>".(time()-600),$db);
+$UserOnline = mysql_num_rows($OnlineCountSQL);
+$ClosedSQL = mysql_query("SELECT id FROM uwar_users WHERE closed='1'",$db);
+$Closed = mysql_num_rows($ClosedSQL);
+
+$tickerSQL = mysql_query("SELECT tickertime, pause FROM uwar_modes WHERE id=1");
+$tickerARR = mysql_fetch_array($tickerSQL);
+$tickertime = $tickerARR["tickertime"];
+
+if ($tickerARR["pause"] == 0 || $ticktime == 0) echo "Ticker is currently stopped.<br>";
+elseif ($tickdif > $tickertime ) echo "$tickdif seconds since last tick.<br>";
+else echo "$tickdif seconds since last tick.<br>";
+
+echo $UserCount." total commanders.<br>";
+echo $UserOnline." online commanders.<br>";
+echo $Closed." closed accounts.<br>";
+echo "Current time ";
+$time = time();
+echo date("M j, Y H:i:s",$time)." CEST";
+
+?>
+</p>
+
+</card>

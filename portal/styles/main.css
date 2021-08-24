@@ -1,0 +1,228 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #000000;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+td {
+	font-family: Tahoma, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+a {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6E88B0;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border: 0px solid;
+	width: 110px;
+	height: 15px;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 20px; 
+	width: 113px;
+	background-color: #000000;
+}
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	border: 0px solid;
+	background-color: #000000;
+	overflow: auto;
+	height: 50px;
+	width: 200px;
+}
+
+.font {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.display {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+.subject {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.subject2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.writtenby {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+.error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: red;
+}
+
+table.calendarTable {
+	width: 95%;
+	height: 95%;
+	color: #000000;
+	vertical-align: top;
+}
+
+table.calendarHead {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+.calendarDayTopic {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #8199BC;
+	vertical-align: top;
+	width: 100px;
+	height: 40px;
+	color: #000000;
+}
+
+.calendarDayEmpty {
+	width: 100px;
+	background-color: #373737;
+	border: 0px solid #888888;
+}
+
+.calendarDayToday {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+	background-color: #232323;
+	border: 0px solid #888888;
+	color: #FFFFFF;
+	vertical-align: top;
+	width: 100px;
+	cursor: hand;
+	height: 55px;
+}
+
+.calendarDayNormal {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+	background-color: #373737;
+	color: #FFFFFF;
+	vertical-align: top;
+	border: 0px solid #888888;
+	width: 100px;
+	cursor: hand;
+	height: 55px;
+}
+
+.calendarTopic {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #CC9933;
+}
+
+a.calendarLinks {
+	color: #FFFFFF; 
+	text-decoration: none;
+	font-size: 10px;
+}
+
+a.calendarLinks: visited {
+	color: #FFFFFF; 
+	text-decoration: none;
+	font-size: 10px;
+}
+
+a.calendarLinks: active {
+	color: #FFFFFF; 
+	text-decoration: none;
+	font-size: 10px;
+}
+
+a.calendarLinks: hover {
+	color: #B4872D; 
+	text-decoration: underline;
+	font-size: 10px;
+}
+
+.calendarMonth {
+	color: #FFFFFF; 
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.calendarEvent {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.calendarLeft {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;	
+}
+
+.calendarRight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.rowTopic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #373737;
+	color: #FFFFFF;
+	border: 0px solid #888888;
+	text-align: center;
+	height: 20px;
+}
+
+.row1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #575757;
+	color: #FFFFFF;
+	border: 0px solid #888888;
+	height: 20px;
+}

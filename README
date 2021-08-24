@@ -1,0 +1,7 @@
+20 years ago, when I was a 13 years old child, I played a game called Planetarion with my school colleagues. In 2001 the game had a 5 figures number of players, deeply engaged. It was the first massive community I have been a part of. Unfortunately, the game became pay to play in its 5th round, and since I was only a kid I could not play it anymore.
+
+Thus I decided to create my own science fiction browser-based game based on Planetarion's mechanics. It took me 2 years, with a team of 3 persons (we were 2 programmers, 1 designer, and 1 community manager), but eventually, we released Universal War. We had a community of only a few hundred players, but it meant a lot for me as it was my first experience as a project manager, entrepreneur, and programmer. And I was only 13.
+
+These days, I look back with nostalgia at how the code we wrote looks. While the project was big for us, it's small for what projects I currently work on, and while a lot of the code uses bad practices, at the time we wrote it, we were shaping the web development practices. We were using algorithms, cron based jobs and created a complex battle system (see TickerMachine.php). It even has 2 mobile pages we were using to manage the ticker and check important metrics (this was before the first smartphone was invented).
+
+The reason I make this project public now is to have it as a historical timeline of where I started as a developer. It's not for anyone to learn best practices or how to make browser-based games. It's just for me to look back from time to time and remember.
